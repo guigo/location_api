@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/stympy/faker.git
+  revision: 33e2a63dd88ffb0cf8cda9bf488e89a89be85bc2
+  branch: master
+  specs:
+    faker (2.14.0)
+      i18n (>= 1.6, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -153,6 +161,8 @@ GEM
       rspec-mocks (~> 3.9.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    shoulda-matchers (4.4.1)
+      activesupport (>= 4.2.0)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -181,12 +191,14 @@ DEPENDENCIES
   byebug
   database_cleaner
   factory_bot_rails (~> 4.0)
+  faker!
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
   pry-rails
   puma (~> 4.1)
   rails (~> 6.0.3)
   rspec-rails (~> 3.7)
+  shoulda-matchers
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
