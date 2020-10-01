@@ -34,6 +34,11 @@ group :development, :test do
   # Factory Bot ♥ Rails https://thoughtbot.com/services/ruby-…
   gem "factory_bot_rails", "~> 4.0"
   gem 'pry-rails'
+  # Collection of testing matchers extracted from Shoulda http://matchers.shoulda.io
+  gem 'shoulda-matchers'
+  # A library for generating fake data such as names, addresses, and phone numbers.
+  gem 'faker', :git => 'git://github.com/stympy/faker.git', :branch => 'master'
+
 end
 
 group :development do
